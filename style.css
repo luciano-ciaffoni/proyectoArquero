@@ -1,0 +1,96 @@
+
+body{
+  background-color: grey;
+}
+
+
+.Inicio{
+  justify-content: center;
+  background-color: aliceblue;
+
+    font-size: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card {
+
+        width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: black;
+    color: aliceblue;
+    
+  }
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+.descripcionOculta1{
+  display: none;
+}
+
+.descripcionOculta2{
+  display: none;
+}
+
+.descripcionOculta3{
+  display: none;
+}
+
+.descripcionOculta4{
+  display: none;
+}
+
+.descripcionOculta5{
+  display: none;
+}
+  
+.titulos1{
+  font-size: 20px;
+}
+
+.equipo1{
+  font-size: 20px;
+}
+
+.titulos2{
+  font-size: 20px;
+}
+
+.equipo2{
+  font-size: 20px;
+}
+
+.titulos3{
+  font-size: 20px;
+}
+
+.equipo3{
+  font-size: 20px;
+}
+
+.titulos4{
+  font-size: 20px;
+}
+
+.equipo4{
+  font-size: 20px;
+}
+
+.titulos5{
+  font-size: 20px;
+}
+
+.equipo5{
+  font-size: 20px;
+}
+
+
