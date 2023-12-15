@@ -1,6 +1,8 @@
 document.getElementById("descripcionFillol").addEventListener("click", function(){
+   
+            
          let descripcionFillol   = document.getElementById("descripcion1")
-        if (descripcionFillol.style.display === "none") {
+         if (descripcionFillol.style.display === "none") {
                 descripcionFillol.style.display = "block"
         } else {
             descripcionFillol.style.display = "none"
