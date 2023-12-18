@@ -28,13 +28,49 @@ function (){
     alert("hola")
     console.log("🔵🟦")
     Messi.src = "dibu.webp"
+    reset.style.backgroundColor = "grey"
+    reset.style.color = "black"
+    lionel.innerText = "dibu"
+
 
 }
 
+let reset =
+document.querySelector("#reset")
+
+let lionel =
+document.querySelector("#lionel")
+
+let cambiar =
+document.querySelector("#cambiar")
+
 reset.onclick =
+function (){
 alert("hola")
     console.log("🔵🟦")
-    Messi
+    Messi.src = "messi.webp"
+    reset.style.backgroundColor = "green"
+    reset.style.color = "red"
+    lionel.innerText = "messi"
+
+
+
+}
+
+
+let imagen = false;
+cambiar.onclick = function(){
+    if (imagen == false){
+        Messi.src = 'dibu.webp'
+        imagen = true
+    } else {
+        messi.src = 'messi.webp'
+    imagen = false
+    
+    }
+}
+
+
 
 
 /*

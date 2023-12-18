@@ -1,21 +1,10 @@
-let edadUsurio = 
-Number (prompt('Ingresa tu edad'))
 
-let titulo =
-document.querySelector("h1")
 
-let Messi =
-document.querySelector("#messi")
+let dia = prompt("ingresa un dia")
 
-if (edadUsurio >= 18) {
-    alert("podes ingresar  ")
-    titulo.style.color = "green"
-    Messi.src = "verdadero1.png "
-
+if (dia.toUpperCase == "DOMINGO" ) {
+    console.log("dia libre")
 } else {
-    alert("no podes ingresar")
-    titulo.style.color = "red"
-    titulo.style.fontFamily = "impact"
-    Messi.src = "falso.png"
+    console.log("dia laborable")
     
 }
