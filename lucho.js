@@ -1,84 +1,73 @@
-let titulo =
-document.querySelector("h1")
+//Múltiplo de 5: Crea una función que determine si un número es múltiplo de 5.
 
-titulo.textContent = "lucho"
+//let codigo = (prompt ("ingresa la contraseña"))
+function contraseña (codigo) {
+    if (codigo == "secreto"){
+        alert ("pasa")
+    } else { 
+        alert ("fuera")
+        
+    }
+}
 
-titulo.style.color = "blue"
+let  saludar =
+document.querySelector("#saludo")
 
-titulo.style.fontFamily = "impact"
+let nombre =
+document.querySelector('#nombre')
 
-titulo.style.fontSize = "100px"
+let texto1 =
+document.querySelector("#soy")
 
+let boton =
+document.querySelector("#boton1")
 
-
-let botonImagen =
-document.querySelector("#botonImagen")
-
-botonImagen.style.color = "red"
-
-botonImagen.style.backgroundColor = "purple"
-
-
-let Messi =
+let messi =
 document.querySelector("#messi")
 
+/*aludar.innerText = "chau"
 
-botonImagen.onclick =
-function (){
-    alert("hola")
-    console.log("🔵🟦")
-    Messi.src = "dibu.webp"
-    reset.style.backgroundColor = "grey"
-    reset.style.color = "black"
-    lionel.innerText = "dibu"
+nombre.innerText = "maxi"
 
+nombre.style.fontfamily = "impact"
 
-}
-
-let reset =
-document.querySelector("#reset")
-
-let lionel =
-document.querySelector("#lionel")
-
-let cambiar =
-document.querySelector("#cambiar")
-
-reset.onclick =
-function (){
-alert("hola")
-    console.log("🔵🟦")
-    Messi.src = "messi.webp"
-    reset.style.backgroundColor = "green"
-    reset.style.color = "red"
-    lionel.innerText = "messi"
+nombre.style.fontSize = "100px"
+*/
 
 
 
-}
+let text  = false
+boton.onclick =  function(){
+    if (text == false) {
+        texto1.innerText = "rama"
+        nombre.innerText = "maxi"
+        nombre.style.fontfamily = "Gill Sans"
+        messi.innerText = "messi: Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Desde 2023, integra el plantel del Inter Miami de la MLS estadounidense. Es también internacional con la selección de Argentina"
+        messi.style.fontSize = "100px"
+        saludar.innerText = "chau"
+        text = true
 
-
-let imagen = false;
-cambiar.onclick = function(){
-    if (imagen == false){
-        Messi.src = 'dibu.webp'
-        imagen = true
+        
+        
     } else {
-        messi.src = 'messi.webp'
-    imagen = false
-    
+        texto1.innerText = "soy lucho"
+        nombre.innerText = "lucho"
+        saludar.innerText = "hola"
+        messi.innerText = "messi:"
+        nombre.style.fontfamily = "arial"
+        text = false
+        
     }
 }
 
 
-let dia = prompt("ingresa un dia")
-
-if (dia.toUpperCase == "DOMINGO" ) {
-    console.log("dia libre")
-} else {
-    console.log("dia laborable")
     
-}
+
+
+
+
+
+
 
 
 
